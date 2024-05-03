@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { TextModule } from './text/text.module';
 
 @Module({
-  imports: [],
+  imports: [TextModule],
   controllers: [],
   providers: [],
 })
